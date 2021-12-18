@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    background: #fff;
+}
+
+.about {
+    background:rgba(100, 144, 235, 0.3);
+    height: 350px;
+    background-image: url('Images/fontree.png');
+    background-repeat: no-repeat;
+    background-size: auto 500px;
+    background-position-x: right;
+    box-sizing: border-box;
+}
+
+.content{
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.text{
+    color: #8b837a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+.icon{
+    width: 90px;
+    height: 80px;
+    border: 2px solid #94908b;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.separator{
+    margin-top: 10px;
+}
+
+.block {
+    text-transform: none;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.hobby{
+    background:rgba(100, 144, 235, 0.3);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: auto 400px;
+    background-position-x: right;
+    box-sizing: border-box;
+}
+
+.hobby_text{
+    color: #8b837a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+.hobby_text > p {
+    width: 650px;
+}
+
+.achievements{
+    background:rgba(100, 144, 235, 0.3);
+    color: #8b837a;
+}
+
+.achievements_position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+.achievements_text {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.achievements_text_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
+
+.achievements_text_block > p {
+    width: 450px;
+}
+
+.figure{
+    font-size: 28px;
+    color: #fff;
+    line-height: 1;
+    width: 400px;
+    animation: changeColor 2s ease-in-out infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #fff;
+    }
+
+    50% {
+    color:#85796b
+    }
+
+    100%{
+        color:#e2d5c6
+    }
+}
+
+.contacts{
+    background:rgba(100, 144, 235, 0.3);
+    height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.contacts_text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.contacts_text{
+    color: #8b837a;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: #af9375;
+}
+
+.footer_link:hover{
+    color: #8b837a;
+}
+
+address{
+    margin-top: 20px;
+}
